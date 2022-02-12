@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=Montserrat:wght@500;700&display=swap');
+
+.principal {
+  display: flex;
+  vertical-align: top;
+  box-sizing: border-box;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.container {
+  background: #3c3c3c;
+  width: 340px;
+  height: 1054px;
+  display: inline-block;
+  position: relative;
+}
+
+img {
+  margin: 68px;
+  width: 136px;
+  height: 136px;
+  border: 2px solid #6cd0db;
+}
+
+.titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0px 48px 0px;
+  padding: 20px;
+}
+
+.subtitulo {
+  font-family: 'Montserrat', sans-serifmon;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #6cd0db;
+  margin: 17px 68px;
+}
+
+.descricao {
+  text-decoration: none;
+  font-family: 'Crimson Pro', serif;
+  color: #d0d0d0;
+  margin: 5px 68px 25px 68px;
+}
+
+.container > a {
+  text-decoration: none;
+  font-family: 'Crimson Pro', serif;
+  color: #d0d0d0;
+}
+
+hr {
+  border: 1px solid #6cd0db;
+  margin-top: 50px;
+  margin-bottom: 44px;
+}
+/*===========NOME=============*/
+.secoes {
+  display: inline-flex;
+  align-items: flex-start;
+  vertical-align: top;
+  position: relative;
+}
+
+.itens1 {
+  position: absolute;
+  align-self: flex-start;
+
+  margin: 68px;
+}
+
+.titulos2 {
+  font-family: 'Montserrat', sans-serifmon;
+  font-size: 56px;
+  font-weight: 700;
+  color: #6cd0db;
+  width: 450px;
+  text-transform: uppercase;
+}
+
+.detalhes2 {
+  font-family: 'Crimson Pro', serif;
+  color: #3c3c3c;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+.itens2 {
+  position: absolute;
+  align-self: flex-start;
+  margin: 228px 0px 0px 68px;
+  width: 480px;
+}
+
+strong {
+  font-family: 'Crimson Pro', serif;
+  color: #3c3c3c;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.subtitulos2 {
+  font-family: 'Montserrat', sans-serifmon;
+  font-weight: 700px;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #6cd0db;
+  margin-bottom: 17px;
+}
+
+.itens2 > p,
+.itens4 > p {
+  font-family: 'Crimson Pro', serif;
+  color: #3c3c3c;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.itens2 > p {
+  margin-bottom: 17px;
+}
+
+.itens3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 428px 0px 0px 68px;
+  width: 400px;
+}
+
+.itens3 > p {
+  grid-column: 1;
+  font-family: 'Crimson Pro', serif;
+  font-weight: 600;
+  color: #3c3c3c;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.dot-container {
+  display: inline-block;
+  text-align: center;
+  align-self: center;
+  width: 80px;
+}
+
+.dot {
+  grid-column: 2;
+  height: 10px;
+  width: 10px;
+  background-color: #6cd0db;
+  border-radius: 50%;
+  display: inline-flex;
+  align-content: space-between;
+}
+
+.dot-none {
+  grid-column: 2;
+  height: 10px;
+  width: 10px;
+  background-color: #3c3c3c;
+  border-radius: 50%;
+  display: inline-flex;
+  align-content: space-between;
+}
+
+.itens4 {
+  position: absolute;
+  align-self: flex-start;
+  margin: 692px 0px 0px 68px;
+  width: 400px;
+}
+
+/* === HOVER === */
+#email:hover {
+  color: #6cd0db;
+}
+
+.titulo:hover {
+  color: #6cd0db;
+}
+
+/*==== BARRA DE ROLAGEM ====*/
+
+/* -- tamanho -- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* -- fundo -- */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* -- cor -- */
+::-webkit-scrollbar-thumb {
+  background: #3c3c3c;
+  border-radius: 5px;
+}
+
+/* -- passar mouse -- */
+::-webkit-scrollbar-thumb:hover {
+  background: #6cd0db;
+}
