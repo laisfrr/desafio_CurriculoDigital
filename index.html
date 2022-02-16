@@ -5,94 +5,110 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Currículo Digita</title>
+	<title>Currículo Digital</title>
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<main>
-		<div class="principal">
-			<aside class="container">
-				<img src="./img/lais_perfil.jpg" alt="">
-				<h2 class="titulo">contatos</h2>
-				<p class="subtitulo">endereço</p>
-				<p class="descricao">Fortaleza-ce</p>
-				<p class="subtitulo">nº telefone</p>
-				<p class="descricao">(85) 99999-9999</p>
-				<p class="subtitulo">email</p>
-				<a id="email" class="descricao" href="mailto:laisf.oliv@gmail.com">laisf.oliv@gmail.com</a>
-				<p class="subtitulo">nacionalidade</p>
+	<main class="conteudo-principal">
+		<div class="container">
+			<img src="./img/lais_perfil.jpg" alt="">
+			<div class="lado-esquerdo">
+				<h2 class="titulo-container">contatos</h2>
+				<p class="subtitulo-contatos">endereço</p>
+				<a href="https://www.google.com.br/maps/place/Fortaleza+-+CE" target="_blank">Fortaleza-ce</a>
+				<!--<p class="descricao">Fortaleza-ce</p>/!-->
+				<p class="subtitulo-contatos">Nº Telefone</p>
+				<p class="descricao">(85)9 9999-0000</p>
+				<p class="subtitulo-contatos">Email</p>
+				<a href="mailto:laisf.oliv@gmail.com" target="_blank">laisf.oliv@gmail.com</a>
+				<p class="subtitulo-contatos">Nacionalidade</p>
 				<p class="descricao">Brasileira</p>
-				<!-- =====LINHA HORIZONTAL - SEPARADOR ==== -->
-				<hr>
-				<!-- ===========TAG HR========== -->
-				<h2 class="titulo">Perfil</h2>
-				<p class="descricao">Estudante de Análise e Desenvolvimento de Sistemas (4º Semestre) em transição de carreira para ser Desenvolvedora Front-End.</p>
-			</aside>
+			</div>
+			<hr>
+			<div class="lado-esquerdo">
+				<h2 class="titulo-container" id="perfil">Perfil</h2>
+				<p class="descricao" id="descricao-perfil">Estudante de Análise e Desenvolvimento de Sistema, em busca da transição de carreira ser uma desenvolvedora FullStack.</p>
+			</div>
+		</div>
+		</div>
+		<div class="conteiner-direito">
+			<div class="container2">
+				<section class="secao">
+					<div class="secao-sub">
+						<h1 id="nome">Laís Oliveira</h1>
+						<p id="profissao">Estudante</p>
+					</div>
+				</section>
+				<section id="educacao">
+					<h2 class="subtitulo">Educação</h2>
+					<p class="detalhes">2020 - 2023 / <span class="detalhes-subtitulo">Análise e Desenvolvimento de Sistemas<span></p>
+					<p class="detalhes">Data / <span class="detalhes-subtitulo">Educação<span></p>
+				</section>
+				<section class="secao3">
+					<h2 class="subtitulo">Skills</h2>
+					<div class="skills-container">
+						<div class="skills">
+							<p>Figma</p>
+							<div class="dot">
+								<span class="dot-cheio"></span>
+								<span class="dot-cheio"></span>
+								<span class="dot-cheio"></span>
+								<span class="dot-cheio"></span>
+								<span class="dot-cheio"></span>
+							</div>
+						</div>
+						<div class="skills">
+							<p>Photoshop</p>
+							<div class="dot">
+								<span class="dot-cheio"></span>
+								<span class="dot-cheio"></span>
+								<span class="dot-cheio"></span>
+								<span class="dot-none"></span>
+								<span class="dot-none"></span>
+							</div>
+						</div>
 
-			<section class="secoes">
-				<div class="itens1">
-					<h1 class="titulos2" id="nome">Laís Oliveira</h1>
-					<p class="detalhes2">Estudante</p>
-				</div>
-			</section>
-			<section class="secoes">
-				<div class="itens2">
-					<h2 class="subtitulos2">educação</h2>
-					<p>2023 / <strong>Uniateneu - Análise e Desenvolvimento de Sistemas</strong></p>
-					<p>2022 / Alura - Desenvolve 2022 - <strong> Grupo Boticário </strong> </p>
-				</div>
-			</section>
-			<section class="secoes">
-				<div class="itens3">
-					<h2 class="subtitulos2">skills</h2>
-					<p>Figma</p>
-					<div class="dot-container">
-						<span class="dot"></span>
-						<span class="dot"></span>
-						<span class="dot"></span>
-						<span class="dot"></span>
-						<span class="dot"></span>
+						<div class="skills">
+							<p>Html / css</p>
+							<div class="dot">
+								<span class="dot-cheio"></span>
+								<span class="dot-cheio"></span>
+								<span class="dot-cheio"></span>
+								<span class="dot-cheio"></span>
+								<span class="dot-none"></span>
+							</div>
+						</div>
+						<div class="skills">
+							<p>javascript</p>
+							<div class="dot">
+								<span class="dot-cheio"></span>
+								<span class="dot-cheio"></span>
+								<span class="dot-cheio"></span>
+								<span class="dot-none"></span>
+								<span class="dot-none"></span>
+							</div>
+						</div>
+						<div class="skills">
+							<p>github</p>
+							<div class="dot">
+								<span class="dot-cheio"></span>
+								<span class="dot-cheio"></span>
+								<span class="dot-cheio"></span>
+								<span class="dot-none"></span>
+								<span class="dot-none"></span>
+							</div>
+						</div>
+
 					</div>
-					<p>Photoshop</p>
-					<div class="dot-container">
-						<span class="dot"></span>
-						<span class="dot"></span>
-						<span class="dot"></span>
-						<span class="dot-none"></span>
-						<span class="dot-none"></span>
-					</div>
-					<p>HTML / CSS</p>
-					<div class="dot-container">
-						<span class="dot"></span>
-						<span class="dot"></span>
-						<span class="dot"></span>
-						<span class="dot"></span>
-						<span class="dot-none"></span>
-					</div>
-					<p>maze</p>
-					<div class="dot-container">
-						<span class="dot"></span>
-						<span class="dot"></span>
-						<span class="dot"></span>
-						<span class="dot-none"></span>
-						<span class="dot-none"></span>
-					</div>
-					<p>marvel</p>
-					<div class="dot-container">
-						<span class="dot"></span>
-						<span class="dot"></span>
-						<span class="dot"></span>
-						<span class="dot"></span>
-						<span class="dot"></span>
-					</div>
-				</div>
-				<div class="itens4">
-					<h2 class="subtitulos2">Experiência</h2>
-					<p>2019 - Atualmente / <strong>Ceará Cidadão - Atendente Jr</strong></p>
-				</div>
-			</section>
+				</section>
+				<section class="secao4">
+					<h2 class="subtitulo">Experiêcia</h2>
+					<p class="detalhes">2019 - Atualmente / <span class="detalhes-subtitulo"> Atendente JR</span></p>
+					<p class="detalhes">Data / <span class="detalhes-subtitulo"> Experiêcia</span></p>
+				</section>
+			</div>
 		</div>
 	</main>
 
