@@ -19,12 +19,19 @@ Fazer o currículo Digital utilizando **HTML e CSS** para tentar deixar o mais p
 
 <h2> Projeto feito por mim </h2>
 
-**descrição:** 
+**Descrição:** 
 
 ✔ Utilizei o `:hover` na parte de contatos para interação.
 
 ✔ Modifiquei a cor da barra de rolagem para deixar no mesmo padrão de cor do projeto.
 
 
+📌**Dificuldades durante o projeto:**
 
-![Captura da Web_12-2-2022_194332_](https://user-images.githubusercontent.com/81163947/153731181-5c86c4e4-a41b-4e2b-acf9-2dca0c5c8317.jpeg)
+1. Posionamento com CSS / flexbox
+2. Deixar o código semântico
+3. Colocar os "dots" nas skills e alinhar da forma correta.
+
+
+
+![Captura22](https://user-images.githubusercontent.com/81163947/154176313-1678d7a5-3757-4497-936b-0e8112e80913.jpeg)
