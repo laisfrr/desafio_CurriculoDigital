@@ -242,3 +242,46 @@ hr {
 ::-webkit-scrollbar-thumb:hover {
   background: #6cd0db;
 }
+
+/* responsivo*/
+
+@media screen and (max-width: 480px) {
+  body {
+    text-align: center;
+  }
+
+  .container {
+    width: 100%;
+    justify-items: center;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    margin: 68px auto;
+  }
+
+  .lado-esquerdo {
+    margin: 0 auto;
+  }
+
+  .titulo-container {
+    margin: auto;
+  }
+
+  #perfil {
+    margin-top: 68px;
+  }
+
+  #descricao-perfil {
+    margin: 17px auto;
+  }
+
+  .descricao {
+    text-align: center;
+  }
+
+  hr {
+    margin-top: 68px;
+  }
+}
